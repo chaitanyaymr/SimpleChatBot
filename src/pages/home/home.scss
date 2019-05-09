@@ -1,0 +1,15 @@
+page-home {
+
+
+.button-disable{
+    cursor: default;
+    opacity: .4;
+    pointer-events: none;
+}
+.button-enable{
+    cursor: pointer;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+}

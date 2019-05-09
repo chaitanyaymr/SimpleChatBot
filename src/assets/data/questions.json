@@ -1,0 +1,57 @@
+{
+    "questions":[
+        {
+            "keyword":"Dealer",
+            "question":"Give me the Name of Dealer you want to know about"
+        },
+        {
+            "keyword":"Car",
+            "question":"Give me the Name of car you want to know about"
+        },
+        {
+            "keyword":"Hi",
+            "question":"Hi Again!!!!Ask me some questions on either Dealer or Car"
+        },
+        {
+            "keyword":"Hello",
+            "question":"Hi Again!!!!Ask me some questions on either Dealer or Car"
+        },
+        {
+            "keyword":"How",
+            "question":"Hi Again!!!!Ask me some questions on either Dealer or Car"
+        },
+        {
+            "keyword":"Classic",
+            "question":"We have more Dealers with this name. Please choose and type the name from the following. 'Classic Arlington','Classic Kia','Classic Buick GMC' "
+         },
+        {
+            "keyword":"Arlington",
+            "question":"DealerUrl:classic.aiqware.com\nDealerDomain:classic.aiqware.com\nDealerTagLine:Relax. Enjoy the difference."
+        },
+        {
+            "keyword":"Kia",
+            "question":"DealerUrl:intelligentkia.aiqware.com\nDealerDomain:intelligentkia.aiqware.com\n"
+        },
+        {
+            "keyword":"Buick GMC",
+            "question":"DealerUrl:classicbgmc.aiqware.com\nDealerDomain:classicbgmc.aiqware.com\n"
+        },
+        {
+            "keyword":"Car",
+            "question":"I have Some information on Swift and give me the variant either Petrol or Diesel"
+        },
+        {
+            "keyword":"Petrol",
+            "question":"Petrol is having variants like VXI,ZXI,ZXI+"
+        },
+        {
+            "keyword":"Deisel",
+            "question":"Deisel is having variants like VDI,ZDI,ZDI+"
+        },
+        {
+            "keyword":"Bye",
+            "question":"Hope enjoyed the chat..Have a nice time"
+        }
+        
+    ]
+}

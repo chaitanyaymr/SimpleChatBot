@@ -1,0 +1,53 @@
+<!--
+  Generated template for the ChatPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title style="color:white;">{{chatusername}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding #content>
+
+  <ion-list>
+    <ion-item *ngFor="let chat of chats" class="chat" text-wrap [ngClass]="{'chat-partner':isChatBot(chat.sender) }" no-lines>
+        {{chat.message}}
+    </ion-item>
+  </ion-list>
+   <!-- <ion-card>
+     <ion-card-header>
+         Hello {{chatusername}}. Welcome and choose a topic of your interest
+     </ion-card-header>
+     <ion-card-content>
+        <ion-list radio-group >
+          <ion-item>
+            <ion-label>About Dealer</ion-label>
+            <ion-radio value="d" (click)="Checked('d')" item-left></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>About Car</ion-label>
+            <ion-radio value="c" (click)="Checked('c')" item-left></ion-radio>
+          </ion-item>
+        </ion-list>
+     </ion-card-content>
+   </ion-card> -->
+  
+</ion-content>
+<ion-footer>
+  <ion-row style="background-color:#272727">
+    <ion-col col-10>
+       <ion-input type="text" [(ngModel)]="message" placeholder="Enter Message ...." style="color:white;"> </ion-input>
+    </ion-col>
+    <ion-col>
+      <button ion-button block (click)="addChat()" [disabled]="message?.length==0?true:null" style="background-color: forestgreen">
+        Send
+      </button>
+    </ion-col>
+  </ion-row>
+</ion-footer>
